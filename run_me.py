@@ -44,7 +44,7 @@ def start_program():
 	    return
 
 	#Load background mask
-	background_frame = np.load('/Users/taylorwang/Desktop/dsp_project/references/background_matrix.npy')
+	background_frame = np.load(background)
 	background_frame = background_frame.astype(np.int32)
 
 	image_folder = heart_folder
