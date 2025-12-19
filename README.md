@@ -107,4 +107,17 @@ To run the MATLAB pipeline:
 run_me
 ```
 
+### Left Ventricle Identification (PYTHON)
+
+The left ventricle identification algorithm is implemented in Python and operates on echocardiogram image data. 
+
+To run the Python Pipeline:
+1. Download the references and heart_image folders
+2. Run the ventricle_identification_dsp_project.py Python program, which will open a GUI 
+3. In the Heart Images Folder Path, input the full path of the heart_image folder that was downloaded in step 1
+4. In the Reference Ventricle Path, input the full path of reference_ventricle.jpg, provided to you in the reference folder
+5. In the Reference Background Path, input the full path of reference_background.npy, provided to you in the reference folder
+6. In the Save Folder Path, input the full path to the folder you want to save the generated images to
+7. Press Go to run the algorithm
+
 
